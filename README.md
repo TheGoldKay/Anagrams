@@ -1,6 +1,3 @@
-# Anagrams
-Given a word, the program will compute the number of anagrams.
-
 Hi Programmers!!!
 
 I'm newbie in programming and I'm starting learning the Python Programming Language...
