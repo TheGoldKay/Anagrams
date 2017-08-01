@@ -5,6 +5,4 @@ This is my firts GitHub repository and I want to show my progress showing a simp
 
 I has used Python 3.x...
 
-Final Note: Sorry about my english (I'm a newbie in english too)...
-
 
