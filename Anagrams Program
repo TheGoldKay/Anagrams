@@ -1,0 +1,22 @@
+def factorial(n):
+	return 1 if (n==0) else n*factorial(n-1)
+
+
+word_f = dict() # dictionary for represent the letters frequency in the word
+def anagram(word):
+	for i in word:
+		if i in word_f:        
+			word_f[i] += 1 # more of the same letter in word
+		else:
+			word_f[i] = 1 
+	
+	val = list(word_f.values()) # getting the numbers (values) that represent "how many of the same letter" the word has
+	
+	count_else = 1
+	for j in val:
+		if (j != 1):
+			count_else *= factorial(j) 
+	
+	return (factorial(len(word)) / count_else)
+
+print(anagram("mat"))
