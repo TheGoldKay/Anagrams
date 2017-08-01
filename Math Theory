@@ -1,0 +1,42 @@
+The idea is to calculate the total number of possible anagrams for a set of letters.
+For example: math
+
+math
+maht
+mtah
+mtha
+mhat
+mhta
+amth
+amht
+atmh
+athm
+ahmt
+ahtm
+tmah
+tmha
+tamh
+tahm
+thma
+tham
+hmat
+hmta
+hamt
+hatm
+htma
+htam
+Total: 24
+
+The world "math" has 24 possible combinations...
+We can calculate it with the factorial of the word's lenght:   4! = 24 (4.3.2.1 = 24)
+But, if the word has more of one letter like "mathematics" the computation change for: 
+
+(word's_lenght)! / (number_of_replicate_letter_1)!*(number_of_replicate_letter_2)!*....*(number_of_replicate_letter_n)!
+
+For "mathematics": 11! / 2!2!2! = 4,989,600
+lenght = 11
+"m" = 2
+"a" = 2
+"t" = 2
+
+This little text explain the core idea behind the program...
